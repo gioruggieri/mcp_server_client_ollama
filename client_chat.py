@@ -122,7 +122,7 @@ class MCPClient:
 
 async def main():
     if len(sys.argv) < 2:
-        print("Usage: python client_gemma.py <path_to_server_script>")
+        print("Usage: python <path_to_client_script> <path_to_server_script>")
         sys.exit(1)
 
     client = MCPClient()
